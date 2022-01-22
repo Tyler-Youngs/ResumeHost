@@ -12,5 +12,12 @@ After installation use the below snippet to get and use node v14
 ```
 nvm install 14
 ```
+Install yarn for front end work
+```
+npm install --global yarn
+```
+After pulling, run 
+```yarn install```
+ in the front end folder to update to the latest package versions
 
-
+ 
