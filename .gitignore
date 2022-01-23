@@ -1,4 +1,5 @@
 # Tyler Inserts
+build/
 sample/frontend/resume-app/node_modules/*
 *package-lock.json
 node_modules
