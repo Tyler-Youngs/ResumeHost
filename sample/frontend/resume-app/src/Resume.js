@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 
-function Resume() {
-  return (
-    <div>
-      This is the Resume page.
-    </div>
-  );
+import React, { Component } from 'react'
+
+export default class Resume extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Resume</h1>
+                <p>This the resume.</p>
+            </div>
+        )
+    }
 }
-
-export default Resume;

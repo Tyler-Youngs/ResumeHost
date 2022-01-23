@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
 
-function Info() {
-  return (
-    <div className="Resume">
-      <header className="Resume-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is the Info page.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class Info extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Info</h1>
+                <p>This is info.</p>
+            </div>
+        )
+    }
 }
-
-export default Info;

@@ -1,6 +1,7 @@
 # Tyler Inserts
 sample/frontend/resume-app/node_modules/*
 *package-lock.json
+node_modules
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
