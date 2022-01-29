@@ -33,6 +33,10 @@ For builds on the pi, run
 ```
 yarn run build
 ```
+To add packages used in the build, use yarn to ensure the package is added to the package.json
+```
+yarn add <package>
+```
 
 
  
