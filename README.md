@@ -12,12 +12,27 @@ After installation use the below snippet to get and use node v14
 ```
 nvm install 14
 ```
+Set node version default
+```
+nvm alias default v14.18.3
+```
 Install yarn for front end work
 ```
 npm install --global yarn
 ```
-After pulling, run 
-```yarn install```
- in the front end folder to update to the latest package versions
+After pulling, change directories into the resume-app and run the following command to install dependencies
+```yarn```
+
+I had trouble getting this to wrok on the pi. I used [this link](https://stackoverflow.com/questions/53471063/yarn-error-there-are-no-scenarios-must-have-at-least-one) to get yarn working on the pi.
+<br><br>
+For development, use the below command to locally serve the files you're editing
+```
+yarn start
+```
+For builds on the pi, run 
+```
+yarn run build
+```
+
 
  
