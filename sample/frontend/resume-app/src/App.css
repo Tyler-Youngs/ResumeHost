@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 
@@ -15,7 +17,7 @@
   }
 }
 
-.App-header {
+.Resume {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -25,6 +27,50 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
+.App-header {
+  margin: 10px;
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+.App-Title {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-decoration: underline;
+}
+.App-Content {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  max-width: 50%;
+  text-align: left;
+}
+
+.Navbar-Custom {
+  text-align: right;
+  justify-content: flex-start;
+  padding-left: 3%;
+}
+
+
 
 .App-link {
   color: #61dafb;

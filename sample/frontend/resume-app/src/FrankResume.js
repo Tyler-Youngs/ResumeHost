@@ -1,11 +1,11 @@
-
+import './App.css';
 import React, { Component } from 'react'
 
-export default class Resume extends Component {
+export default class TylerResume extends Component {
     render() {
         return (
-            <div>
-                <h1>Resume</h1>
+            <div className="Resume">
+                <h1>Frank</h1>
                 <p>This the resume.</p>
             </div>
         )
