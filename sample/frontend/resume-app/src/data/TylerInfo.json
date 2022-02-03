@@ -1,0 +1,31 @@
+{
+    "Name": "Tyler",
+    
+    "Experience": [
+        {
+            "title": "C++",
+            "content": "My undergrad classes were in C++, data structures and algorithms. My undergrad classes were in C++, data structures and algorithms. My undergrad classes were in C++, data structures and algorithms. My undergrad classes were in C++, data structures and algorithms. "
+        },
+        {
+            "title": "Python",
+            "content": "The majority of my work post graduation has been in python. The majority of my work post graduation has been in python. The majority of my work post graduation has been in python. The majority of my work post graduation has been in python. The majority of my work post graduation has been in python. "
+        },
+        {
+            "title": "Google Cloud Platform",
+            "content": "Bigquery, cloud functions, Pub/Sub, Monitoring"
+        },
+        {
+            "title": "Azure",
+            "content": "Azure Data Factory, Azure Functions, Kubernetes, Networking"
+        },
+        {
+            "title": "Databricks",
+            "content": "FHIR Processing"
+        },
+        {
+            "title": "Other",
+            "content": "Mentoring"
+        }
+
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Name": "Frank",
+    "Experience": [
+        {
+            "title": "Java",
+            "content": "Undergrad work"
+        },
+        {
+            "title": "JavaFX",
+            "content": "Super cool connect 4"
+        },
+        {
+            "title": "Kotlin",
+            "content": "Application"
+        },
+        {
+            "title": "Volunteer Work",
+            "content": "Tutoring"
+        }
+
+    ]
+}

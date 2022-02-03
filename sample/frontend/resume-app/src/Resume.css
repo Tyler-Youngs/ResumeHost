@@ -1,0 +1,12 @@
+.Exp-item {
+  border-top: 0.1rem solid white;
+  padding-top: 1rem;
+}
+
+.Exp-item-title {
+  font-weight: 200;
+}
+
+.Exp-item-content {
+  font-size: 1rem;
+}
