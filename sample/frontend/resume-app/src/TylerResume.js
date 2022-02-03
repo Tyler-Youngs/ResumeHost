@@ -1,9 +1,14 @@
 import './App.css';
 import React, { Component } from 'react'
 import { Accordion } from 'react-bootstrap'
+import tylerData from './data/TylerInfo.json'
+
+
 
 export default class TylerResume extends Component {
+
     render() {
+
         return (
             <div className="Resume">
                 <h1>Tyler</h1>

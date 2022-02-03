@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
+import notes from './data/PatchNotes.json'
 
 export default class PatchNotes extends Component {
     render() {
+        var patches = []
+        for (const [index, value] of notes.notes.length ){
+            patches.push(
+                <li key={index}> {value.title} : {value.content}</li>
+            )
+        }
         return (
             <div className='Patch-notes'>
                 <h1>Patch Notes</h1>
-                <p>Patch Note 1 - Baseline home landing pages, a resume page for Frank and I, 
-                    and some project info pages have been created. Yarn has been implemented as the package
-                    manager we can now serve these pages from the Pi.</p>
+                <ul>
+                    {patches}
+                </ul>
             </div>
         )
     }

@@ -1,0 +1,12 @@
+{
+    "notes": [
+        {
+            "title": "Patch 1 - Crawl/Serve Any Content",
+            "content": "Baseline home landing pages, a resume page for Frank and I, and some project info pages have been created. Yarn has been implemented as the package manager we can now serve these pages from the Pi."
+        },
+        {
+            "title": "Patch 2 - Introducing Elements",
+            "content": "Starting to add some placeholder/example items on the resume page and content placeholders. Using more data stored in json files instead of hard coded strings so api calls in the future can be swapped in."
+        }
+    ]
+}
