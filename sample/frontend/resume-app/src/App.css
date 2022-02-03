@@ -28,6 +28,9 @@
   color: white;
 }
 
+.Patch-notes {
+  color: white
+}
 
 .App-header {
   margin: 10px;
@@ -70,6 +73,15 @@
   padding-left: 3%;
 }
 
+.Languages-container {
+  width: 40%;
+}
+
+.Languages {
+  width: 100%;
+  color: #282c34;
+  font-size: 1rem;
+}
 
 
 .App-link {
