@@ -4,9 +4,9 @@ import notes from './data/PatchNotes.json'
 export default class PatchNotes extends Component {
     render() {
         var patches = []
-        for (const [index, value] of notes.notes.length ){
+        for (var i = notes.notes.length - 1; i >= 0; i--){
             patches.push(
-                <li key={index}> {value.title} : {value.content}</li>
+                <li key={i}> {notes.notes[i].title} : {notes.notes[i].content}</li>
             )
         }
         return (
