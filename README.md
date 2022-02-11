@@ -39,4 +39,13 @@ yarn add <package>
 ```
 
 
+
+
+## SQL
+- Using sqlite and the sqlite3 command line tool to create and seed the database
+
+## Backend
+- Using Python Framework Flask
+- Using a python (virtual environment)[https://docs.python.org/3/tutorial/venv.html]
+
  
